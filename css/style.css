@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e6e7ea;
+    font-family: 'Montserrat', sans-serif;
+    *padding: 40px;
+    padding-left: 20px;
+    *padding-right: 40px;
+}
+
+aside {
+    *background-color: #1e2939;
+    background-color: #322d33;
+    width: 370px;
+}
+
+h1 {
+    line-height: 45px;
+
+    font-size: 45px;
+    font-weight: 700;
+}
+
+h2 {
+    line-height: 14px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.contacts_links {
+    opacity: 0.5;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.contacts_links_caption {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-right: 10px;
+}
+
+.main_container {
+    display: flex;
+    flex-direction: row;
+    margin: 40px auto;
+    *margin-left: 40px;
+    *margin-right: 40px;
+    background-color: #ffffff;
+    max-width: 1200px;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+
+.sheet_container {
+    *padding-top: 110px;
+    *padding-bottom: 110px;
+    *padding-left: 90px;
+    *padding-right: 90px;
+    max-width: 742px;
+    margin: 110px 90px;
+    color: #000000;
+}
+
+.sheet_container > div > h1 {
+    margin-top: 19px;
+}
+
+.contacts_container {
+    color: #ffffff;
+    *width: 370px;
+    *padding-top: 60px;
+    *padding-left: 40px;
+    margin-top: 60px;
+    margin-left: 40px;
+    line-height: 24px;
+}
+
+.tech_skills_container {
+    color: #ffffff;
+    *width: 370px;
+    margin-top: 54px;
+    margin-left: 40px;
+    line-height: 24px;
+}
+
+.soft_skills_container {
+    color: #ffffff;
+    *width: 370px;
+    margin-top: 55px;
+    margin-left: 40px;
+    line-height: 24px;
+}
+
+.sidebar_items {
+    color: #ff6b08;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.sidebar_items span {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.projects_container {
+    margin-top: 64px;
+}
+
+h4 {
+    *margin-top: 18px;
+    margin-bottom: 14px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.experience_container {
+    margin-top: 50px;
+    margin-right: 192px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+}
+
+.experience_container > div {
+    margin-top: 18px;
+    margin-bottom: 14px;
+}
+
+.experience_container > div > ul {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 20px;
+    margin-top: 17px;
+}
+
+.experience_container > div > span {
+    color: #a8a8a8;
+}
+
+.experience_container > div > span > span {
+    color: #000000;
+}
+
+.experience_container > div > h4 > span {
+    color: #ff6b08;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+p {
+    margin-top: 24px;
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+.education_container {
+    margin-top: 47px;
+    /*line-height: 14px;*/
+    color: #000000;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+}
+
+.education_container > div > p {
+    color: #ff6b08;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 1px;
+}
+
+.education_container > div > p + p {
+    color: #000000;
+    margin-top: 15px;
+    margin-bottom: 14px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 1px;
+}
+
+.education_container > div > span {
+    color: #a8a8a8;
+}
+
+.education_container > div > span > span {
+    color: #000000;
+}
+
+.numeric_items {
+    margin-top: 13px;
+    margin-left: 20px;
+    margin-right: 256px;
+    width: 500px;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 700;
+    *line-height: 24px;
+}
+
+.numeric_items .numeric_item_container {
+    *align-items: baseline;
+    *display: list-item;
+    display: flex;
+    *margin-bottom: 0.5em;
+}
+
+.numeric_items .numeric_item_container::before {
+    content: ''; /* Выводим линию */
+    border-bottom: 1px dotted #a8a8a8; /* Параметры линии */
+    flex-grow: 1; /* Линия занимает всё доступное пространство */
+    order: 2; /* Выводим вторым */
+    margin: 0 5px; /* Расстояние от текста */
+}
+
+.numeric_items .numeric_item_right_part {
+    order: 3;
+}
+
+.sheet_links {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.ava {
+    width: 370px;
+    height: 354px;
+    margin-top: 40px;
+}
